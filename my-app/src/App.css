@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500vh;
+}
+
+.xoGrid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+
+}
+
+.cell{
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+
+  border: 2px solid;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  background-color: darkkhaki;
+}
